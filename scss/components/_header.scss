@@ -2,10 +2,13 @@
 
 .header {
   position: fixed;
+  top:0;
   width: 100%;
   background-color: $background-color-header;
-  padding: 20px;
+  // padding: 20px;
   text-align: center;
+  z-index: 1000;
+  /* Cambios recientes, se añadio z-index top: 0 */
 }
 
 .header__nav-link {

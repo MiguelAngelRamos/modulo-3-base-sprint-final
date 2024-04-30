@@ -1,14 +1,28 @@
 @import '../vendors/bootstrap';
 /* Notebook*/
 @media (max-width: 1200px) {
+  .main {
+    top:-160px;
+  }
   .main__section-galeria-img {
     margin: 1rem;
     width: calc(25% - 2rem);
   }
+  .main__contact {
+    margin-top:11rem;
+  }
+
+  .main__section--margin-top {
+    margin-top: 170px;
+  }
+  
 }
 
 /* Tablet */
 @media (max-width: 992px) {
+  .main {
+    top:-140px;
+  }
   .main__section-galeria-img {
     margin: 1rem;
     width: calc(33.333% - 2rem);
@@ -17,6 +31,9 @@
 
 /* Moviles*/
 @media (max-width: 778px) {
+  .main {
+    top:-120px;
+  }
   .main__section-galeria-img {
     margin: 1rem;
     width: calc(50% - 2rem);
@@ -24,6 +41,9 @@
 }
 
 @media (max-width: 576px) {
+  .main {
+    top:-80px;
+  }
   .main__section-galeria-img {
     margin: 1rem;
     width: calc(100% - 2rem);

@@ -2,11 +2,26 @@
 
 /* Estilos de galería de images */
 .main {
-  margin-top: 8rem;
+  position: relative;
+  top:-200px;
+  margin-top: 2rem;
   flex: 1;
+  background: white;
+
 }
+
+.main__contact {
+  margin-top:15rem;
+}
+
+
 .main__section {
   padding: 8px;
+}
+//Modifier
+.main__section--margin-top {
+  // margin-top: 170px;
+  margin-top: 220px;
 }
 .main__section-galeria {
   display: flex;
@@ -21,22 +36,23 @@
 
 
 
-.main__section--productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
-}
+//.main__section--productos {
+//  display: flex;
+//  flex-wrap: wrap;
+//  justify-content: space-around;
+//  padding: 20px;
+//}
 
 .main__section-producto {
   /* la propiedad flex conbina 3 propiedades
   flex-grow, flex-shrink, flex-basis */
   display: flex;
-  flex: 0 1 calc(33.333% - 2rem);
-  margin: 1rem;
+  // flex: 0 1 calc(33.333% - 2rem);
+  // margin: 1rem;
   box-sizing: border-box;
   text-align: center;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 // .main__section-producto-img {
 //   margin: 1rem;
