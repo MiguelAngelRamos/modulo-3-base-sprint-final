@@ -17,6 +17,12 @@ body {
   min-height: 100vh;
 }
 
+body {
+  .carousel {
+    margin-top:3rem;
+  }
+}
+
 .header__title, .main__section-title, .main__section-text {
   margin-bottom: 1rem;
 }

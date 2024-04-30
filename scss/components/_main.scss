@@ -81,14 +81,15 @@
   box-sizing: border-box;
 }
 
+// Sass con Anidamiento (nesting) y el Uso de & (cambios de estado) pseudo selector Hover
 .main__section-form-button {
   background-color: $color-button;
   color: $color-button-text;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-}
 
-.main__section-form-button:hover {
-  background-color: $color-button-hover;
+  &:hover {
+    background-color: $color-button-hover;
+  }
 }
